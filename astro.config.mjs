@@ -18,6 +18,7 @@ export default defineConfig({
       lastUpdated: false,
       pagination: true,
       sidebar: [
+        { label: '原子習慣改變了我的人生', slug: 'unit00' },
         {
           label: '基本原理 為何細微改變會帶來巨大差異',
           items: [
@@ -68,6 +69,7 @@ export default defineConfig({
             { label: '建立好習慣的壞處', slug: 'unit20' },
           ],
         },
+        { label: '讓成果永續的祕訣', slug: 'unit21' },
       ],
     }),
     react(),
